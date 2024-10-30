@@ -1,8 +1,23 @@
-
+*{
+    margin:5px;
+}
 body{
-    background: grey;
+    background: black;
+    color: white;
 }
 
 main{
-    background-color: bisque;
+    background-color: rgb(240, 221, 221);
+    color: black;
+}
+
+.lists{
+    background-color: brown;
+}
+
+li{
+    margin:5px;
+}
+button, .submitbtn{
+    background:rgb(240, 221, 221);
 }
