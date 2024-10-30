@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const footer = document.getElementById('copyright');
         if(footer){
             const PresentYear = new Date().getFullYear();
-            const text = `Copyright &copy;${PresentYear}`;
+            const text = `Copyright &copy;${PresentYear}, All rights reserved`;
             footer.innerHTML = text; 
         }
         }
